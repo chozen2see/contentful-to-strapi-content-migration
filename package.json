@@ -1,0 +1,16 @@
+{
+  "name": "renci-content",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "contentful-management": "^8.2.2",
+    "dotenv": "^16.0.0"
+  }
+}
