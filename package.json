@@ -4,13 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "start": "node index",
+    "post": "node post",
+    "postContent": "node postContent",
+    "createContentTypes": "node createContentTypes.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "contentful-management": "^8.2.2",
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.0",
+    "strapi": "^3.6.10",
+    "strapi-cli": "^2.0.0",
+    "strapi-utils": "^3.6.10"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category2s",
+  "info": {
+    "name": "category2"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "timestamps": true,
+    "increments": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
